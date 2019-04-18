@@ -1,0 +1,10 @@
+<!doctype html>
+<title>Hello from Flask</title>
+{% if filename %}
+  <h1>original image </h1>
+  <h2><img src="{{filename}}"></h2>
+  <h1>returned images </h1>
+  <h2><img src="{{file0}}"><img src="{{file1}}"><img src="{{file2}}"><img src="{{file3}}"><img src="{{file4}}"></h2>
+{% else %}
+  <h1>no image</h1>
+{% endif %}
