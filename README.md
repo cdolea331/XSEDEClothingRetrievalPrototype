@@ -30,6 +30,8 @@ Use convert_tfrecords to convert the data into tfrecords for training, then use 
 
 After training, remove the training/testing images(not the folders) and empty the .csv files.
 
+Place the old training images in Data/blouseData/Images/blouse with their annotation csv in Data/blouseData. Sample .csvs have been left in.
+
 Now simply run app.py and upload an image when prompted after accessing the server via a browser.
 
 Requires: Flask, Pandas, Numpy, Scipy, Tensorflow
